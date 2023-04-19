@@ -1,38 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Patika.dev Kitap Arama Uygulaması
 
-## Getting Started
+Bu uygulama, [Google Books API](https://developers.google.com/books/docs/overview?hl=tr) kullanılarak yapılmıştır. Uygulama, aranan kelimeye göre kitapların listelendiği ve detaylarına gidilebildiği bir uygulamadır.
 
-First, run the development server:
+## - [Canlı - Live](https://patika-dev-kitap-arama-uygulamasi.vercel.app/)
+
+# Kurulum
+
+Uygulamayı yerel cihazınınzda çalıştırmak için şu adımları izleyin:
+
+1. Bu depoyu kopyalayın ve klasörü açın:
+
+```bash
+git clone https://github.com/biskendr/Patika.dev-kitap-arama-uygulamasi
+cd Patika.dev-kitap-arama-uygulamasi
+```
+
+2. Bağımlılıkları yükleyin:
+
+```bash
+npm install
+```
+
+3. Uygulamayı başlatın:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Uygulamayı görüntülemek için tarayıcınızda http://localhost:3000 adresine gidin.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+# Ekran Görüntüsü
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+<div align="center">  
+<img src="./public/screenshot.png" alt="Weather App Day" width="600" height="auto">  
+</div>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+# Gereksinimler
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+[Google Books API](https://developers.google.com/books/docs/overview?hl=tr) veya herhangi başka bir API ile kullanıcıların kitap veya yazar ismi yazarak kitap arayabileceği bir servis geliştirmeniz gerekiyor.
 
-## Learn More
+### Uygulama Gereksinimleri
 
-To learn more about Next.js, take a look at the following resources:
+- Input'a girilecek olan ifadeye uygun sonuçlar getirilmeli ve ekranda listelenmeli.
+- Arama sonuçları sadece ilgili form submit edildiğinde gösterilmeli.
+- Sonuçlarda kitapların kapak fotoğrafları bulunmalı.
+- Kitap listesinde "detay" adında bir buton olmalı ve bu butona tıklandığında kitap ile alakalı detay bilgiler verilmeli (sayfa sayısı, yayın tarihi vs.) Detay bilgilerini farklı bir sayfada da gösterebilirsiniz, bir modal açtırarak da gösterebilirsiniz.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### API
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Tıklayın](https://developers.google.com/books/docs/overview?hl=tr)
 
-## Deploy on Vercel
+### Örnek Çalışma
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Tıklayın](https://fethica.github.io/BookSearch-React/)
