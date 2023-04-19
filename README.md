@@ -39,6 +39,8 @@ npm run dev
 
 [Google Books API](https://developers.google.com/books/docs/overview?hl=tr) veya herhangi başka bir API ile kullanıcıların kitap veya yazar ismi yazarak kitap arayabileceği bir servis geliştirmeniz gerekiyor.
 
+![patika-ss](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/frontend-proje/kitap_arama_uygulamas%C4%B1/figures/preview.png)
+
 ### Uygulama Gereksinimleri
 
 - Input'a girilecek olan ifadeye uygun sonuçlar getirilmeli ve ekranda listelenmeli.
