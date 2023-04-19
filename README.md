@@ -2,7 +2,7 @@
 
 Bu uygulama, [Google Books API](https://developers.google.com/books/docs/overview?hl=tr) kullanılarak yapılmıştır. Uygulama, aranan kelimeye göre kitapların listelendiği ve detaylarına gidilebildiği bir uygulamadır.
 
-## - [Canlı - Live](https://patika-dev-kitap-arama-uygulamasi.vercel.app/)
+## - [Canlı - Live](https://patika-kitap-arama-uygulamasi.vercel.app/)
 
 # Kurulum
 
